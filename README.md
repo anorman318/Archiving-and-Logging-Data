@@ -21,7 +21,16 @@ sudo tar xvvf Tardocs.tar
 2. Command to create the Javaless_Doc.tar archive from the TarDocs/ directory, while excluding the TarDocs/Documents/Java directory:  
 
 Answer:  
-tar cvvf Javaless_Docs.tar -–exclude=“TarDocs/Documents/Java” TarDocs/Documents/
+tar cvvf Javaless_Docs.tar -–exclude=“TarDocs/Documents/Java” TarDocs/Documents/  
+<img width="599" alt="12experiment" src="https://user-images.githubusercontent.com/106919343/200645898-9e96f65e-0770-498f-b22f-dcf96869b32b.png">  
+
+3. Command to ensure Java/ is not in the new Javaless_Docs.tar archive:  
+
+tar tvvf Javaless_Docs.tar | grep Java  
+
+
+
+
 
 
 
